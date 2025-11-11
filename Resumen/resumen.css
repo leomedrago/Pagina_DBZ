@@ -1,0 +1,62 @@
+*, *::before, *:after{
+                      margin: 0;
+                      padding: 0;
+                      box-sizing: inherit;
+                     }
+html {
+      box-sizing: border-box;
+      font-size: 90%;
+     }
+body {
+      line-height: 1.6;
+      margin: 0;
+      margin-bottom: 60px;
+      min-height: 100vh;
+      background-image: url('../imagen/namek.jpg'); 
+      background-size: cover;
+     }
+header {
+        background: rgba(135,206,235,1);
+        width: 54%;
+        position: absolute;
+       }
+h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;  
+   }
+nav {
+     float: left;
+    }
+ul {
+    list-style: none;
+    overflow: hidden; 
+   }
+a {
+   display: block; 
+   padding: 20px;
+   color: #fff;
+   text-decoration: none;
+  }
+section {
+         width: 50%;
+         margin: auto;
+         overflow:hidden;
+        }
+footer {
+        position: absolute;
+        width: 100%;    
+        height: 60px;
+       }
+main
+    {
+     flex:1;
+    }
+.botton {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+   }
+.botton:hover {
+          background: red;
+         }

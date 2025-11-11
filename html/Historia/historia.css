@@ -1,0 +1,71 @@
+*, *::before, *:after {
+                       margin: 0;
+                       padding: 0;
+                       box-sizing: inherit;
+                      }
+html {
+      box-sizing: border-box;
+      font-size: 90%;
+      min-height: 100%;
+     }
+body {
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-image: url('../imagen/fondohistoria.jpg');
+      color: #333;
+      margin-bottom: 60px;
+      min-height: 100vh;
+     }
+header {
+        background: rgba(135,206,235,1);
+        width: 54%;
+        position: absolute;
+       }
+h1 {
+    color: #ff8c00;
+    text-align: center;
+    padding-bottom: 10px;
+   }
+h2 {
+    color: #4682b4; 
+    margin-top: 25px;
+   }
+span {
+      font-weight: bold;
+      color: #dc143c; 
+     }
+nav {
+     float: left;
+    }
+ul {
+    list-style: none;
+    overflow: hidden; 
+   }
+li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+   }
+a {
+   display: block; 
+   padding: 20px;
+   color: #fff;
+   text-decoration: none;
+  }
+li:hover {
+          background: red;
+         }
+section {
+         width: 50%;
+         margin: auto;
+         overflow:hidden;
+        }
+footer {
+        position: absolute;         
+        width: 100%;    
+        height: 60px;
+       }
+main {
+      flex: 1;
+     }

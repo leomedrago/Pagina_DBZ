@@ -1,0 +1,53 @@
+body {
+      background-image: url('../imagen/fondoform.jpg');
+      background-size: cover;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      margin-bottom: 60px;
+      min-height: 100vh;
+     }
+header {
+        background-color:#A3E1D8;
+        width: 54%;
+        position: absolute;
+       }
+fieldset {
+          color: White;
+         }
+nav {
+     float: left;
+    }
+ul {
+    list-style: none;
+    overflow: hidden; 
+   }
+li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+   }
+a {
+   display: block; 
+   padding: 20px;
+   color: #fff;
+   text-decoration: none;
+  }
+li:hover {
+          background: red;
+         }
+section {
+         width: 50%;
+         margin: auto;
+         overflow:hidden;
+        }
+*, *::before, *:after {
+                       margin: 0;
+                       padding: 0;
+                       box-sizing: inherit;
+                      }
+html {
+      box-sizing: border-box;
+      font-size: 90%;
+      min-height: 100%;
+     }

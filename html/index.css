@@ -1,0 +1,82 @@
+*, *::before, *:after{
+                      margin: 0;
+                      padding: 0;
+                      box-sizing: inherit;
+                     }
+html {
+      box-sizing: border-box;
+      font-size: 80.5%;
+     }
+body 
+    {
+     line-height: 1.6;
+     margin: 0;
+     padding: 2px;
+     background-image: url('./imagen/fondoinicio.jpg');
+     background-size: cover;
+     margin-bottom: 60px;
+     min-height: 100vh;
+    }
+header 
+     {
+      background: rgba(135,206,235,1);
+      width: 54%;
+      position: absolute;
+     }
+h1   
+  {
+   color: gold;
+  }
+h2
+  {
+   color: gold;
+   padding: 20px;
+  }
+h3   {
+      color: gold;
+     }
+h4   {
+      color: white;
+     }
+a    {
+      color: #80F8CB;
+     }
+nav {
+     float: left;
+    }
+ul {
+    list-style: none;
+    overflow: hidden;
+   }
+li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+   }
+a {
+   display: block; 
+   padding: 20px;
+   color: #fff;
+   text-decoration: none;
+  }
+li:hover {
+          background: red;
+         }
+section {
+         width: 50%;
+         margin: auto;
+         overflow:hidden;
+        }
+span {
+      font-weight: bold;
+      color: #dc143c;     }
+footer {
+        position: absolute;
+        bottom: 0; 
+        width: 100%;    
+        height: 60px;
+       }
+main
+    {
+     flex:1;
+    }
